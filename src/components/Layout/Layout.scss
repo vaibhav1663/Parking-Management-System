@@ -1,0 +1,17 @@
+.app__layout{
+    padding: 6vw;
+}
+.app__layout-schematic{
+    display: flex;
+    padding: 6vw;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 4vw;
+    margin-top: 6vh;
+}
+.app__layout-schematic-cont{
+    padding: 12vw;
+    border-radius: 2vh;
+    cursor: pointer;
+    align-items: center;
+}
