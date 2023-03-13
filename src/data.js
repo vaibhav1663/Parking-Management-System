@@ -6,7 +6,7 @@ export const sensorData = [
   },
   {
     _id: 2,
-    status: 0,
+    status: 1,
     // bg:'red',
   },
   {
