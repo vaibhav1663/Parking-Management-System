@@ -5,7 +5,7 @@ import './Navbar.scss'
 const Navbar = () => {
   return (
     <div className="app__navbar">
-      <h2>LOGO</h2>
+      <a href="/"><h2>LOGO</h2></a>
       <FiUser size={25} color="#fff" />
     </div>
   )

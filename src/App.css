@@ -18,7 +18,13 @@ h1, h2, h3, h4, h5, h6, p{
   color: #e5e5e5;
 }
 
-.app__home{
+a{
+  text-decoration: none;
+}
+.app__home, .app__booking{
   background: linear-gradient(-45deg, #02001a, #020107);
   min-height: 100vh;
+}
+.app__link{
+  text-decoration: none;
 }
