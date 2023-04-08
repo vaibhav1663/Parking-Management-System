@@ -4,7 +4,7 @@ IoT based parking system is a smart solution to automate and optimize parking ma
 
 ## Installation 💽
 
-Use [Git](https://git-scm.com/download/win) to clone this app.
+Use [git](https://git-scm.com/download/win) to clone this app.
 
 ```bash
 git clone https://github.com/pratikt76/IOTApp.git .
