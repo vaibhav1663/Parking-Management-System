@@ -43,6 +43,6 @@ IoT based parking system is a promising solution to tackle the challenges of par
 - <a href='https://github.com/sidd5449'> Siddhesh Thakare
 - <a href='https://github.com/pratikt76'> Pratik Thombare
 
-## License
+## License 🪪
 
 [MIT](https://choosealicense.com/licenses/mit/)
