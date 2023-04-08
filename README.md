@@ -20,6 +20,9 @@ git clone https://github.com/pratikt76/IOTApp.git .
 - React Js
 - SCSS
 
+* Express Js
+* Mongo DB
+
 ## Snapshots
 
 <p>loading ...</p>
