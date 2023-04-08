@@ -4,7 +4,7 @@ IoT based parking system is a smart solution to automate and optimize parking ma
 
 ## Installation
 
-Use [Git](https://git-scm.com/download/win) to use this app.
+Use [Git](https://git-scm.com/download/win) to clone this app.
 
 ```bash
 git clone https://github.com/pratikt76/IOTApp.git .
@@ -15,9 +15,25 @@ git clone https://github.com/pratikt76/IOTApp.git .
 - Real-time availability of parking spots
 - Reservation of parking spots
 
+## Technologies Used
+
+- React Js
+- SCSS
+
 ## Snapshots
 
 <p>loading ...</p>
+
+## Benefits
+
+- Reduced traffic congestion and air pollution
+- Improved parking efficiency and user experience
+- Cost savings for parking facility management
+- Enhanced safety and security for vehicles
+
+## Conclusion
+
+IoT based parking system is a promising solution to tackle the challenges of parking management in urban areas. With its innovative technologies and user-friendly applications, it can optimize parking utilization, reduce traffic congestion and air pollution, and improve the overall urban experience for both drivers and pedestrians.
 
 ## Contributing
 
