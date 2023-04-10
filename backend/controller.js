@@ -10,3 +10,36 @@ export const getSensData = async(req, res) =>{
         
     }
 }
+
+export const updateStatus = async(req, res) => {
+    try {
+        console.log(req);
+        const { id } = req.params;
+        console.log(id);
+        const filter = { id: id };
+        const updata = {
+            $set: {
+                status: 0
+            }
+        }
+        try {
+            await iotData.updateOne(filter, updata);
+            res.status(200).json(updata);
+            console.log('updated');
+        } catch (err) {
+            res.status(404).json({message: err.message})
+        }
+    } catch (err) {
+        res.status(409).json({message: err.message});
+    }
+}
+
+export const getSpecific = async(req, res) => {
+    try {
+        const { id } = req.params;
+        const slot = await iotData.findOne({ id:id });
+        res.json(slot);
+    } catch (err) {
+        res.status(404).json({message: err.message});
+    }
+}

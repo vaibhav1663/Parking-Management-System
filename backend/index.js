@@ -3,8 +3,10 @@ import express from 'express';
 import  dotenv from 'dotenv';
 import cors from 'cors';
 import { getSensData } from './controller.js';
-import dataRouter from './route.js';
+import dataRouter from './routes/route.js';
 import iotData from './schema.js';
+import bookRouter from './routes/updateRoutes.js';
+import getInfoRouter from './routes/getInfoRouter.js';
 
 
 
@@ -14,6 +16,8 @@ const app = express();
 const PORT = 3001;
 app.use(cors());
 app.use('/', dataRouter);
+app.use('/book', bookRouter);
+app.use('/slot', getInfoRouter);
 // const db = 'iotProj';
 
 const dummy = [

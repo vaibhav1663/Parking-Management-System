@@ -1,7 +1,7 @@
 import express from 'express';
-import { getSensData } from './controller.js';
+import { updateStatus } from '../controller.js';
 
 const router = express.Router();
+router.patch('/:id', updateStatus);
 
-router.get('/', getSensData);
 export default router;
