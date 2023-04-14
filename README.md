@@ -1,6 +1,6 @@
 # IOT Based Parking System 🚗
 
-IoT based parking system is a smart solution to automate and optimize parking management in urban areas. This system utilizes ultrasonic sensor, arduino nano to detect and monitor the availability of parking spaces in real-time. With the help of a user-friendly web application, drivers can easily find and reserve parking spots, while the system ensures efficient utilization of parking spaces and reduces congestion on the roads.
+IoT based parking system is a smart solution to automate and optimize parking management in urban areas. This system utilizes ultrasonic sensor, arduino nano to detect and monitor the availability of parking spaces in real-time. With the help of a user-friendly web application, drivers can easily find and reserve parking spots, while the system ensures efficient utilization of parking spaces and reduces congestion on the roads,It also include <a href="screenshots/qrcode.png">QR Code</a> that you can scan and open portal.
 
 ## Installation 💽
 
@@ -24,7 +24,7 @@ git clone https://github.com/sidd5449/IOTApp.git .
 
 ## Snapshots 📸
 
-![Screenshot](https://user-images.githubusercontent.com/96099806/232015554-649f9608-f2dc-4b7e-a4df-a0891f492319.png)
+<img src="screenshots/appScreenShots.png"/>
 
 ## Benefits 👀
 
