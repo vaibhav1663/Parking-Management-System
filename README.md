@@ -24,7 +24,8 @@ git clone https://github.com/sidd5449/IOTApp.git .
 
 ## Snapshots 📸
 
-<p>loading ...</p>
+![Screenshot 2023-04-14 153544](https://user-images.githubusercontent.com/96099806/232015554-649f9608-f2dc-4b7e-a4df-a0891f492319.png)
+
 
 ## Benefits 👀
 
