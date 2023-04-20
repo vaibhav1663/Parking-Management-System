@@ -1,7 +1,7 @@
 import express from 'express';
-import { updateStatus } from '../controller.js';
+import { updateStat } from '../controller.js';
 
 const router = express.Router();
-router.patch('/:id', updateStatus);
+router.patch('/:id', updateStat);
 
 export default router;
