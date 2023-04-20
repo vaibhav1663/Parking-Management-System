@@ -1,5 +1,5 @@
 import express from 'express';
-import { getSensData, updateStatus } from '../controller.js';
+import { getSensData, updateStat } from '../controller.js';
 
 const router = express.Router();
 

@@ -11,7 +11,7 @@ export const getSensData = async(req, res) =>{
     }
 }
 
-export const updateStatus = async(req, res) => {
+export const updateStat = async(req, res) => {
     try {
         console.log(req);
         const { id } = req.params;
