@@ -19,7 +19,7 @@ export const updateStatus = async(req, res) => {
         const filter = { id: id };
         const updata = {
             $set: {
-                status: 0
+                booked: 1
             }
         }
         try {

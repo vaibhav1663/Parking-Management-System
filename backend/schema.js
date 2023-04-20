@@ -9,6 +9,11 @@ const iotSchema = new mongoose.Schema(
         status: {
             type: Number,
             required: true,
+        },
+        booked: {
+            type: Number,
+            required: false,
+            default: 0,
         }
     }
 );

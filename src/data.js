@@ -31,10 +31,16 @@ export const sensorData = [
   },
 ];
 
-export const bgColor = (status) => {
+export const bgColor = (status, booked) => {
   if (status === 1) {
-    return "green";
-  } else {
-    return "red";
+    if(booked === 0){
+      return "#0e7800";
+    }
+    if(booked === 1){
+      return "#785800";
+    }
+  }
+  else {
+    return "#781800";
   }
 };

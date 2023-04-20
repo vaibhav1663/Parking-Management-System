@@ -12,7 +12,9 @@ html{
 body{
   overflow-x: hidden;
   
-  
+}
+::-webkit-scrollbar{
+  width: 0;
 }
 h1, h2, h3, h4, h5, h6, p{
   color: #e5e5e5;
@@ -27,4 +29,10 @@ a{
 }
 .app__link{
   text-decoration: none;
+}
+
+.app__receipt{
+  background-color: #02001a;
+  height: 100vh;
+  padding: 6vw;
 }

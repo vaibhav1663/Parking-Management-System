@@ -24,30 +24,36 @@ const dummy = [
     {
         id: 1,
         status: 1,
+        booked: 1,
         
     },
     {
         id: 2,
         status: 0,
+        booked: 1,
     },
     {
         id: 3,
         status: 1,
+        booked: 0,
         
     },
     {
         id: 4,
         status: 1,
+        booked: 1,
         
     },
     {
         id: 5,
         status: 0,
+        booked: 1,
 
     },
     {
         id: 6,
         status: 0,
+        booked: 0,
 
     },
 ]
