@@ -1,10 +1,9 @@
 // import React, { useEffect, useState } from 'react';
-import { useEffect, useState } from 'react';
-import { bgColor } from '../../data';
-import './Layout.scss';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
- 
+import { useEffect, useState } from "react";
+import { bgColor } from "../../data";
+import "./Layout.scss";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Layout = () => {
   const [data, setdata] = useState([]);
@@ -13,11 +12,8 @@ const Layout = () => {
       axios.get('https://iot-server-yt0y.onrender.com/').then((data) => {
       setdata(data.data);
       console.log(data);
-    })
-    }, [])
-    
-
-
+    });
+  }, []);
 
   return (
     <div className="app__layout">
@@ -36,7 +32,9 @@ const Layout = () => {
         ))}
       </div>
     </div>
-  )
-}
 
-export default Layout
+    // QR Code
+  );
+};
+
+export default Layout;
